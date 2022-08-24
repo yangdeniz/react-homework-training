@@ -1,0 +1,21 @@
+.training-list__item {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.training-list__item div {
+  text-align: center;
+}
+
+.training-list__actions {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 50px;
+}
+
+.training-list__actions span {
+  cursor: pointer;
+}

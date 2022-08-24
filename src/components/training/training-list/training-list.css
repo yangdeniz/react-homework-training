@@ -1,0 +1,22 @@
+.training-list,
+.training-list__header {
+  width: 480px;
+  display: grid;
+  padding: 20px;
+}
+
+.training-list {
+  margin: 0;
+  grid-template-columns: 1fr;
+  row-gap: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.training-list__header {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.training-list__header div {
+  text-align: center;
+}
